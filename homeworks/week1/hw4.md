@@ -89,8 +89,3 @@ MacOs 可直接打開 Terminal，接著輸入 `git --version`。
 3. `git clone _SSH網址_`：**從 repository 上複製一份至本地**
 
 * 修改過的檔案只能自己存放，無法 push 回 GitHub。
-
-
-
-
-
