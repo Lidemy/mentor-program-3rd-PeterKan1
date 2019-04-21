@@ -10,7 +10,7 @@ h0w 哥：「欸！能不能教我 command line 到底是什麼，然後怎麼�
 
 一般我們習慣直接使用滑鼠來點擊桌面上的資料夾、檔案等，這種操作的方式稱為：
 	
-	**圖形化介面（Graphical User Interface**
+	**圖形化介面（Graphical User Interface）**
 
 而命令行介面（Command Line Interface）則是透過 **文字視窗** 來對電腦執行令。
 
