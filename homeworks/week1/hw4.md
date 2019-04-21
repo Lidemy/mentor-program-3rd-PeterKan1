@@ -62,7 +62,7 @@ MacOs 可直接打開 Terminal，接著輸入 `git --version`。
 
 與 branch 相關的指令：
 
-1.`git branch _branch名稱_`：**建立一個新的 branch**
+1. `git branch _branch名稱_`：**建立一個新的 branch**
 
 2. `git branch -v`：**查看當前所在的 branch**
 
