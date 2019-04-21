@@ -53,29 +53,3 @@ MacOs 可直接在 Spotlight 上輸入 Terminal.app，或是安裝 [ITerm2](http
 * 範例：新增一個名為 afu.js 的檔案：
 
 	`touch afu.js`，完成後再輸入 `ls` 來確認是否建立成功。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
