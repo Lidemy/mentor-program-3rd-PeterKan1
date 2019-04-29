@@ -62,15 +62,15 @@ MacOs 可直接打開 Terminal，接著輸入 `git --version`。
 
 與 branch 相關的指令：
 
-1. `git branch _branch名稱_`：**建立一個新的 branch**
+1. `git branch <branch名稱>`：**建立一個新的 branch**
 
 2. `git branch -v`：**查看當前所在的 branch**
 
 3. `git branch -d _branch名稱_`：**刪除 branch**
 
-4. `git checkout _branch名稱_`：**切換 branch**
+4. `git checkout <branch名稱>`：**切換 branch**
 
-5. `git merge _branch名稱_`：**把 _branch名稱_ 合併進來**
+5. `git merge <branch名稱>`：**把 <branch名稱> 合併進來**
 
 * 在 branch-A 中輸入 `git merge branch-Ｂ`就是將 branch-B 合併進 branch-A。
 
@@ -84,7 +84,7 @@ MacOs 可直接打開 Terminal，接著輸入 `git --version`。
 
 1. `git push origin _branch名稱_`：**同步 branch 至 GitHub 平台**
 
-2. `git pull origin _branch名稱_`：**同步 GitHub 至本地 **
+2. `git pull origin _branch名稱_`：**同步 GitHub 至本地**
 
 3. `git clone _SSH網址_`：**從 repository 上複製一份至本地**
 
