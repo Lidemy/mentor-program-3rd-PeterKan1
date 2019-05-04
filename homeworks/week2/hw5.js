@@ -10,8 +10,8 @@ function join(arr, concatStr) {
   return arr2;
 }
 
-
 console.log(join(['a', 'b', 'c'], '!'));
+
 
 function repeat(str, times) {
   let str2 = '';

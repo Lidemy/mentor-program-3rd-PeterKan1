@@ -1,5 +1,12 @@
 function isPalindromes(str) {
-  console.log(str);
+  let str2 = '';
+  for (let i = str.length - 1; i >= 0; i -= 1) {
+    str2 += str[i];
+  }
+  if (str === str2) {
+    return true;
+  }
+  return false;
 }
 
-module.exports = isPalindromes;
+console.log(isPalindromes('abcba'));
