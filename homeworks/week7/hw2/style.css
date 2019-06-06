@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+.bg {
+  width:100%;
+  background: #FAEBD7;
+}
+.picture {
+  height: 300px;
+  width: 100%;
+  background: url(https://images.pexels.com/photos/1419929/pexels-photo-1419929.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center;
+  background-size: cover;
+}
+form {
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
+  top: -100px;
+  max-width: 700px;
+  background: white;
+  border-top: 10px solid #F5DEB3;  
+}
+.form__title {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.form__smallword {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.form__star {
+  font-size: 10px;
+  color: red;
+  padding-bottom: 30px;
+}
+.form__email {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+span {
+  color: red;
+}
+.form__name {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.form__kind {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+#form__kind1 {
+  font-size: 16px;
+  padding-top:20px;
+}
+#form__kind2 {
+  font-size: 16px;
+  padding-top:20px;
+}
+.form__job {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.form__howplan {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.form__background {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.form__other {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.btn {
+  background:#155ded;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+.require {
+  font-size: 15px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  width: 300px;
+  margin: 20px 0;
+}
+.response {
+  font-size: 15px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  width: 300px;
+  margin: 20px 0;
+}
+.active {
+  background:	#FFC0CB
+}
