@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: blue;
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  height: 90vh;
+}
+.change {
+  background: orange;
+}
+.star {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.again {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.hidden {
+  visibility: hidden;
+}
