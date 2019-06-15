@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #F8F8FF;
+}
+
+.nav {
+  height: 50px;
+  background: #003377;
+  color: #DCDCDC;
+  line-height: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.nav_logo {
+  color: white;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.nav_item {
+  font-size: 15px;
+  padding: 0px 10px;
+}
+.nav_item:hover {
+  color: white;
+}
+
+.background {
+  height: 200px;
+  width: 100%;
+  color: #FFCC22;
+  line-height: 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+#btn {
+  width: 100px;
+  height: 50px;
+  background: #F8F8FF;
+  font-size: 20px;
+  border: 2px solid #FFCC22;
+  color: #FFCC22;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+#btn:hover{
+ transform: scale(1.2);
+}
+
+.prize_list {
+  font-size: 12px;
+  height: 150px;
+  text-align: center;
+  color: #666666;
+}
+
+.prize {
+  text-align: center;
+  color: #FFCC22;
+  height: 200px;
+}
+.first {
+  background: url("https://www.funhouse.com.tw/wp-content/uploads/2016/10/47543751_m.jpg");
+  background: cover;
+}
+.none {
+  background: black; 
+  color: white; 
+}
