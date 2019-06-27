@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background:	#FFF5EE;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background:	#FFE4B5;
+  height: 80px;
+  font-size: 18px;
+}
+.nav h1 {
+  display: inline-block;
+  color: #CD853F;
+  margin: 0 20px;
+}
+.nav a {
+  display: inline-block;
+  padding: 20px;
+  color: #CD853F;
+  text-decoration: none;
+}
+.nav a:hover {
+  background: #DEB887;
+}
+.warning {
+  background: #FFFFF0;
+  color: #FFA07A;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px;
+}
+.container {
+  margin-top: 120px;
+  text-align: center;
+}
+.add_message {
+  width: 80%;
+  margin: 30px auto;
+  background: #FFEFD5;
+  padding:20px;
+  border-radius: 10px;
+}
+.message {
+  width: 70%;
+  height: 50px;
+  border: 1px solid #FFEFD5;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #A9A9A9
+}
+.submit {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CD853F;
+  border-radius: 10px;
+  background: #FFDEAD;
+  margin: 0 5px;
+  transition: all 0.3s;
+  font-size: 15px;
+  color: #CD853F;
+}
+.submit:hover {
+  transform: scale(1.05);
+}
+.reminder {
+  color: #CD853F;
+  margin-top: 10px;
+}
+.message_box {
+  text-align: left;
+  margin: 0px auto;
+  width: 80%;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  color: #A9A9A9;
+}
+.message_box ~ .message_box {
+  margin-top: 30px;
+}
+.nickname {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.time {
+  font-size: 10px;
+  font-weight: lighter;
+}
+.title {
+  color: #808080;
+}
+.user {
+  color: #808080;
+  font-size: 20px;
+}
+#nickname {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #808080;
+  background: #FFF5EE;
+  color: #CD853F;
+}
+#username {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #808080;
+  background: #FFF5EE;
+  color: #CD853F;
+}
+#password {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #808080;
+  background: #FFF5EE;
+  color: #CD853F;
+}
+.register_text {
+  display: inline-block;
+  padding-top: 30px;
+  text-decoration: none;
+}
