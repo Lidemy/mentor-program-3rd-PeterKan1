@@ -33,8 +33,8 @@ require_once('./conn.php');
     <div class="message_contents">
     <?php  
       $sql = "SELECT C.content, C.created_at, U.nickname 
-              FROM Week9_Peter_comments as C 
-              LEFT JOIN Week9_Peter_users  as U ON C.username = U.username
+              FROM PeterKan01_comments as C 
+              LEFT JOIN PeterKan01_users  as U ON C.username = U.username
               ORDER BY C.id DESC";
       $result = $conn->query($sql);
       if ($result) {
